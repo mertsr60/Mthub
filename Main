@@ -15,11 +15,11 @@ local Window = Fluent:CreateWindow({
 -- TABLAR
 -- Fluent provides Lucide Icons, they are optional
 local Tabs = {
-    Main1 = Window:AddTab({ Title = "Main 1", Icon = "" }),
-    Main2 = Window:AddTab({ Title = "Main 2", Icon = "" }),
-    Main3 = Window:AddTab({ Title = "Main 3", Icon = "" }),
-    Main4 = Window:AddTab({ Title = "Main 4", Icon = "" }),
-    Main5 = Window:AddTab({ Title = "Main 5", Icon = "" }),
+    Ana Menü = Window:AddTab({ Title = "Ana Menü", Icon = "" }),
+    Oyunlar = Window:AddTab({ Title = "Oyunlar", Icon = "" }),
+    Oyunlar2 = Window:AddTab({ Title = "Oyunlar2", Icon = "" }),
+    Evrensel = Window:AddTab({ Title = "Evrensel", Icon = "" }),
+    Bilgi = Window:AddTab({ Title = "Bilgi", Icon = "" }),
     Settings = Window:AddTab({ Title = "Settings", Icon = "settings" })
 }
 
