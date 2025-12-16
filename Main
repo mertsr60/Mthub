@@ -1,30 +1,202 @@
 -- ANA KOMUT
-
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 
---Alan
+-- Alan
 local Window = Fluent:CreateWindow({
     Title = "Fluent " .. Fluent.Version,
     SubTitle = "by dawid",
     TabWidth = 160,
     Size = UDim2.fromOffset(580, 460),
-    Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
+    Acrylic = true,
     Theme = "Dark",
-    MinimizeKey = Enum.KeyCode.LeftControl -- Used when theres no MinimizeKeybind
+    MinimizeKey = Enum.KeyCode.LeftControl
 })
 
-
-
-
-
 -- TABLAR
-
 -- Fluent provides Lucide Icons, they are optional
 local Tabs = {
-    Main = Window:AddTab({ Title = "Main", Icon = "" }),
-    Main = Window:AddTab({ Title = "Main", Icon = "" })
-    Main = Window:AddTab({ Title = "Main", Icon = "" })
-    Main = Window:AddTab({ Title = "Main", Icon = "" })
-    Main = Window:AddTab({ Title = "Main", Icon = "" })
+    Main1 = Window:AddTab({ Title = "Main 1", Icon = "" }),
+    Main2 = Window:AddTab({ Title = "Main 2", Icon = "" }),
+    Main3 = Window:AddTab({ Title = "Main 3", Icon = "" }),
+    Main4 = Window:AddTab({ Title = "Main 4", Icon = "" }),
+    Main5 = Window:AddTab({ Title = "Main 5", Icon = "" }),
     Settings = Window:AddTab({ Title = "Settings", Icon = "settings" })
 }
+
+--butonlar 
+
+Tabs.Main1:AddButton({
+    Title = "Button",
+    Description = "Very important button",
+    Callback = function()
+        print("Hello, world!")
+    end
+})
+
+Tabs.Main1:AddButton({
+    Title = "Button",
+    Description = "Very important button",
+    Callback = function()
+        print("Hello, world!")
+    end
+})
+
+Tabs.Main1:AddButton({
+    Title = "Button",
+    Description = "Very important button",
+    Callback = function()
+        print("Hello, world!")
+    end
+})
+
+Tabs.Main1:AddButton({
+    Title = "Button",
+    Description = "Very important button",
+    Callback = function()
+        print("Hello, world!")
+    end
+})
+
+Tabs.Main1:AddButton({
+    Title = "Button",
+    Description = "Very important button",
+    Callback = function()
+        print("Hello, world!")
+    end
+})
+
+Tabs.Main1:AddButton({
+    Title = "Button",
+    Description = "Very important button",
+    Callback = function()
+        print("Hello, world!")
+    end
+})
+
+Tabs.Main1:AddButton({
+    Title = "Button",
+    Description = "Very important button",
+    Callback = function()
+        print("Hello, world!")
+    end
+})
+
+Tabs.Main1:AddButton({
+    Title = "Button",
+    Description = "Very important button",
+    Callback = function()
+        print("Hello, world!")
+    end
+})
+
+Tabs.Main1:AddButton({
+    Title = "Button",
+    Description = "Very important button",
+    Callback = function()
+        print("Hello, world!")
+    end
+})
+
+Tabs.Main1:AddButton({
+    Title = "Button",
+    Description = "Very important button",
+    Callback = function()
+        print("Hello, world!")
+    end
+})
+
+Tabs.Main1:AddButton({
+    Title = "Button",
+    Description = "Very important button",
+    Callback = function()
+        print("Hello, world!")
+    end
+})
+
+Tabs.Main1:AddButton({
+    Title = "Button",
+    Description = "Very important button",
+    Callback = function()
+        print("Hello, world!")
+    end
+})
+
+Tabs.Main1:AddButton({
+    Title = "Button",
+    Description = "Very important button",
+    Callback = function()
+        print("Hello, world!")
+    end
+})
+
+Tabs.Main1:AddButton({
+    Title = "Button",
+    Description = "Very important button",
+    Callback = function()
+        print("Hello, world!")
+    end
+})
+
+Tabs.Main1:AddButton({
+    Title = "Button",
+    Description = "Very important button",
+    Callback = function()
+        print("Hello, world!")
+    end
+})
+
+Tabs.Main1:AddButton({
+    Title = "Button",
+    Description = "Very important button",
+    Callback = function()
+        print("Hello, world!")
+    end
+})
+
+Tabs.Main1:AddButton({
+    Title = "Button",
+    Description = "Very important button",
+    Callback = function()
+        print("Hello, world!")
+    end
+})
+
+Tabs.Main1:AddButton({
+    Title = "Button",
+    Description = "Very important button",
+    Callback = function()
+        print("Hello, world!")
+    end
+})
+
+Tabs.Main1:AddButton({
+    Title = "Button",
+    Description = "Very important button",
+    Callback = function()
+        print("Hello, world!")
+    end
+})
+
+Tabs.Main1:AddButton({
+    Title = "Button",
+    Description = "Very important button",
+    Callback = function()
+        print("Hello, world!")
+    end
+})
+
+Tabs.Main1:AddButton({
+    Title = "Button",
+    Description = "Very important button",
+    Callback = function()
+        print("Hello, world!")
+    end
+})
+
+Tabs.Main1:AddButton({
+    Title = "Button",
+    Description = "Very important button",
+    Callback = function()
+        print("Hello, world!")
+    end
+})
