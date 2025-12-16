@@ -50,7 +50,7 @@ Tabs.Oyunlar:AddParagraph({
 
 Tabs.Oyunlar:AddParagraph({
     Title = "Güncellemeler",
-    Content = "Herhangi bi güncelleme yok"
+    Content = "güncelleme yakında"
 })
 
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
