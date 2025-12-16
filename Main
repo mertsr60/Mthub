@@ -53,6 +53,8 @@ Tabs.Oyunlar:AddParagraph({
     Content = "Herhangi bi güncelleme yok"
 })
 
+local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
+
 local Window = Fluent:CreateWindow({
     Title = "MThub " .. Fluent.Version,
     SubTitle = "by mert",
